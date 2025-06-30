@@ -1,0 +1,84 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  background: linear-gradient(135deg, #83f3ae, #6092ca, #f7b42c);
+  font-variation-settings: "wdth" 100;
+  padding: 0;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.mother {
+  background: rgb(96, 146, 202);
+  display: inline-block;
+  width: 35rem;
+  height: 37rem;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 0 0 rgba(53, 41, 41, 0);
+  border-radius: 6%;
+  box-shadow: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  margin-top: 10px;
+}
+
+.mother {
+  box-shadow: 5px 5px 60px 8px rgb(53, 41, 41);
+}
+
+.icons {
+  position: absolute;
+  left: 24px;
+  bottom: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-size: 2.1rem;
+}
+
+.icons a {
+  position: static;
+  display: inline-block;
+  align-items: center;
+  font-size: 2.1rem;
+  color: #222;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.icons a:hover {
+  color: #0056b3;
+}
+
+.anhcanhan img {
+  max-width: 150px;
+  margin-top: 18%;
+  margin-bottom: 40px;
+  border-radius: 45%;
+  display: inline-block;
+  margin-left: 70%;
+  margin-right: auto;
+}
+
+a {
+  margin-left: 30px;
+  font-size: 23px;
+  margin-top: 80%;
+}
+
+.one {
+  margin-left: 400px;
+}
+
+h1 {
+  text-align: center;
+}
+.p2 {
+  display: inline-block;
+}
