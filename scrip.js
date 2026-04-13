@@ -1,7 +1,7 @@
 const element = document.getElementById("typing");
 
 const fullTextRaw =
-  "In the future, I want to work at Microsoft\nthat is my biggest dream, and I always strive every day to reach that dream.";
+  "I always try to study and pursue those two fields: Software and Information Security. In the future, what I hope is to step into Microsoft.";
 const halfway = Math.floor(fullTextRaw.length / 2);
 
 const typingSpeed = 60;
