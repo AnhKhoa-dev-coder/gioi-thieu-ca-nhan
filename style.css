@@ -54,14 +54,14 @@ h3 {
   text-shadow: 1px 1px 0 #999, 2px 2px 0 #888, 3px 3px 0 #777;
 }
 
-img {
+ img {
   width: 40%;
   max-width: 180px;
   height: auto;
   border-radius: 50%;
   margin: 0 auto 1rem;
   display: block;
-}
+} 
 
 .socials {
   display: flex;
@@ -110,14 +110,18 @@ img {
   img {
     width: 60%;
     max-width: 120px;
-  }
+  } 
   .socials a {
     font-size: 1.2rem;
   }
   #thep {
     font-size: 0.95rem;
   }
-  .the1:hover{
+}
+/* a {
+  box-shadow: 5px 3px 40px 6px rgb(0, 0, 0);
+} */
+.the1:hover{
   color: black;
 }
 .the2:hover{
@@ -126,8 +130,3 @@ img {
 .the3:hover{
   color : rgb(42, 204, 42);
 }
-
-}
-/* a {
-  box-shadow: 5px 3px 40px 6px rgb(0, 0, 0);
-} */
