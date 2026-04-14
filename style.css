@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(270deg, #83f3ae, #6092ca, #f7b42c, #83f3ae);
+  background-size: 800% 800%;
+  animation: gradientMove 10s ease infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.mother {
+  background: rgb(76, 169, 185);
+  width: 100%;
+  max-width: 600px;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 5px 5px 60px 8px rgba(53, 41, 41, 0.6);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+}
+#thep {
+  font-size: 1rem;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 1.2rem;
+  text-shadow: 1px 1px 0 #999, 2px 2px 0 #888, 3px 3px 0 #777;
+}
+
+ img {
+  width: 40%;
+  max-width: 180px;
+  height: auto;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  display: block;
+} 
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 1.5rem;
+}
+.socials a {
+  font-size: 1.5rem;
+  color: #fff;
+  transition: transform 0.2s;
+}
+.socials a:hover {
+  transform: scale(1.2);
+}
+
+.chu2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .mother {
+    padding: 1.5rem;
+  }
+  img {
+    width: 50%;
+    max-width: 140px;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  .chu2 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .mother {
+    padding: 1rem;
+  }
+  img {
+    width: 60%;
+    max-width: 120px;
+  } 
+  .socials a {
+    font-size: 1.2rem;
+  }
+  #thep {
+    font-size: 0.95rem;
+  }
+}
+/* a {
+  box-shadow: 5px 3px 40px 6px rgb(0, 0, 0);
+} */
+.the1:hover{
+  color: black;
+}
+.the2:hover{
+  color : blue;
+}
+.the3:hover{
+  color : rgb(42, 204, 42);
+}
